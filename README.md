@@ -61,4 +61,9 @@ robot_test.py imports toyrobot.py and runs two tests:
 
 test1.txt and test2.txt are these lists of commands.
 
+Improvements to be made:
+
+Both tests redirect the standard output of the report command to a text file, before then opening and comparing the contents of the text file to known values.
+Ideally this standard output should be saved in a variable instead of a file.
+
 
