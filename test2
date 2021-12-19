@@ -1,0 +1,42 @@
+move
+left
+report
+right
+place
+report
+place 0,0
+report
+place 0,0,  south
+report
+place -1,-1,south
+report
+place 0,6,south
+report
+place 0,0,up
+report
+place 0,0,south
+move
+right
+move
+left
+left
+move
+move
+move
+place
+turn left
+move
+move
+move
+left
+move
+move
+4328235
+move
+move
+turn right
+move
+move
+*&%%&
+"right"
+report
