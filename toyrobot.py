@@ -85,6 +85,9 @@ direction_list = ['EAST', 'SOUTH', 'WEST', 'NORTH']
 coord_list = ['0','1','2','3','4']
 
 def main():
+    print("You have a toy robot and a table top which is a grid of 5 x 5 units. There are no obstructions. You can issue commands to your robot allowing it to roam around the table top.")
+    print("Commands:\nPLACE X,Y,FACING\nMOVE\nLEFT\nRIGHT\nREPORT")
+    print("You must begin with a valid PLACE command. All invalid commands and commands resulting in the robot falling off the table will be ignored.")
     for line in commands:
         split_command = line.upper().split()   
 
