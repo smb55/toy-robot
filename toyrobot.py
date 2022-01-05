@@ -1,7 +1,5 @@
 import sys
 
-# adding a comment to test working on different branches in Git.
-
 class Robot:
     '''define a class to represent the robot. methods are:
         place(x,y,facing)
